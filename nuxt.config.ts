@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
     nitro: {
         preset: 'netlify-edge'
+    },
+    runtimeConfig: {
+        OPENAI_API_KEY: ""
     }
 })

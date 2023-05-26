@@ -1,7 +1,6 @@
 <template>
   <div>
-    <button type="button" @click="apiTest">API request</button>
-    {{ hello }}
+    <ChatBot />
   </div>
 </template>
 
