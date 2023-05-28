@@ -36,7 +36,7 @@
                 <input required type="text" v-model="question"
                     class="mr-4 flex-grow rounded-md border-2 border-gray-300 p-2" placeholder="Type a message..." />
                 <button type="submit" class="rounded-md bg-blue-500 p-2 text-white">Send</button>
-                <label for="ask-input" class="sr-only">Ask a question</label>
+                <!-- <label for="ask-input" class="sr-only">Ask a question</label> -->
             </div>
         </form>
     </footer>
