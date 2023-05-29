@@ -11,6 +11,7 @@
   "devDependencies": {
     "@types/node": "^18",
     "nuxt": "^3.5.1",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "openai-edge": "^0.6.1"
   }
 }
