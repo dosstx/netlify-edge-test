@@ -1,8 +1,8 @@
-import { OpenAI } from "https://deno.land/x/openai/mod.ts";
+import * as openai from "https://deno.land/x/openai@1.3.4/mod.ts";
 
 const config = useRuntimeConfig()
 
-const openAI = new OpenAI(Deno.env.get(config.OPENAI_API_KEY))
+const openAI = new openai(Deno.env.get(config.OPENAI_API_KEY))
 
 export default defineEventHandler(async (event) => {
 
