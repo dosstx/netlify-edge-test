@@ -40,6 +40,7 @@ export default defineEventHandler(async (event) => {
       },
     })
     console.log('server: ', response)
+    return response
   } catch (error: any) {
     console.error(error)
 
